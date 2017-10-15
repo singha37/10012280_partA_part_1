@@ -10,7 +10,7 @@ alert("Welcome")
   submit.addEventListener("click", function () {
   if (check1() == true) {
     if (checkLength() == true) {
-      alert("Your Username and password is set")
+      alert("Your Username and password has been set")
     }
     else{
       alert("check your username or password")
@@ -31,7 +31,7 @@ if (pw.value == cpw.value) {
 function checkLength(form) {
 
   if (un.value.length >= 8) {
-    return(true)
+    alert("ok")
   }
   else {
     alert("Your Username must be at least 8 characters long. Try again.")
