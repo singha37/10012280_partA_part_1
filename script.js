@@ -31,7 +31,7 @@ if (pw.value == cpw.value) {
 function checkLength(form) {
 
   if (un.value.length >= 8) {
-    alert("ok")
+    return(true);
   }
   else {
     alert("Your Username must be at least 8 characters long. Try again.")
